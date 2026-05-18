@@ -28,7 +28,6 @@ public class Main {
 
         System.out.println("\n----------------------------------------\n");
 
-        // 4. Aplicando a Avaliação de Limpeza em todos os setores
         System.out.println("=== INICIANDO AVALIAÇÃO DE LIMPEZA ===");
         for (Setor setor : setoresEmpresa) {
             setor.aceitar(avaliacaoLimpeza);
